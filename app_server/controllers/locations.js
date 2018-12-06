@@ -1,11 +1,11 @@
 module.exports = {
   homeList:(req,res,next)=>{
-    res.render('index', {title: 'Home'})
+    res.render('locations-list', {title: 'Home'})
   },
   locationInfo:(req,res,next)=>{
-    res.render('index', {title: 'Location Info'})
+    res.render('location-info', {title: 'Location Info'})
   },
   addReview:(req,res,next)=>{
-    res.render('index', {title:'Add Review'})
+    res.render('location-review-form', {title:'Add Review'})
   }
 }
